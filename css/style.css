@@ -38,8 +38,7 @@ p{
 
 .submit_nav{
     a{
-
-        margin-right: 30px;
+        margin-right: 20px;
         margin-top: 10px;
         color: white;
         text-decoration: none;
@@ -59,7 +58,7 @@ p{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    margin-left: 290px;
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 1024px) {
