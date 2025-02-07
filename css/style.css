@@ -1,101 +1,79 @@
-body{
-    background-image: url("../images/colnight.jpg");
-    margin-left: 350px;
-    margin-top: 300px;
-
+body {
+  background-image: url("../images/colnight.jpg");
+  margin-left: 350px;
+  margin-top: 300px;
 }
 
-.name{
+.name {
+  color: white;
+  font-size: 27px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 100px;
+}
+
+.sch_id {
+  h3 {
+    margin-left: 290px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+  }
+  color: white;
+  margin-bottom: 100px;
+}
+
+p {
+  color: white;
+}
+
+.bottom {
+  p {
+    margin-left: 400px;
+    font-size: large;
+  }
+  margin-top: 300px;
+}
+
+.submit_nav {
+  a {
+    margin-right: 20px;
+    margin-top: 10px;
     color: white;
-    font-size: 27px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 100px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: green;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    height: 500px;
+    height: 500px;
+    border-top: 70px;
+    border-bottom: 70px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  margin-left: 10px;
 }
 
-.sch_id{
-    h3{
-        margin-left: 290px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size:xx-large;
-    
-    }
-    color: white;
-    margin-bottom: 100px;
-
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
 }
 
-p{
-    color: white;
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
 }
 
-.bottom{
-    p{
-        margin-left: 400px;
-        font-size: large;
-    }
-    margin-top: 300px;
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
 }
 
-.submit_nav{
-    a{
-        margin-right: 20px;
-        margin-top: 10px;
-        color: white;
-        text-decoration: none;
-    }
-    a:hover {
-        background-color:green;
-        border-radius: 30px;
-        font-size: 20px;
-        text-decoration: none;
-        height: 500px;
-        height: 500px;
-        border-top: 70px;
-        border-bottom: 70px;
-        text-decoration: none;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    margin-left: 10px;
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
 }
 
-@media screen and (min-width: 1024px) {
-    .gfg-div {
-      background-color: #63c971;
-      color: #fff;
-    }
-  }
-  
-  /* For Tablet View */
-  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .gfg-div {
-      width: 400px;
-      height: 400px;
-    }
-  }
-  
-  /* For Mobile Portrait View */
-  @media screen and (max-device-width: 480px) and (orientation: portrait) {
-    .gfg-div {
-      width: 200px;
-      height: 200px;
-    }
-  }
-  
-  /* For Mobile Landscape View */
-  @media screen and (max-device-width: 640px) and (orientation: landscape) {
-    .gfg-div {
-      width: 400px;
-      height: 200px;
-    }
-  }
-  
-  /* For Mobile Phones Portrait or Landscape View */
-  @media screen and (max-device-width: 640px) {
-    .gfg-div {
-      width: 400px;
-      height: 200px;
-    }
-  }
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+}
