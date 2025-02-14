@@ -1,0 +1,85 @@
+.tenor-sans-regular {
+    font-family: "Tenor Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #b6b6d6;
+  }
+  
+  .body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    top: 20px;
+    padding-top: 3%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+  }
+  
+  .label {
+    background-color: #fff5c0;
+    color: #000000;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* Image styling */
+  .img {
+    width: 34vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    max-width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  div {
+    background-color: white;
+    padding: 25px;
+    padding-top: 1px;
+    width: 34vw;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  p span {
+    font-size: 1rem;
+    color: #6c6c6c;
+  }
+  
+  /* Media query implementation */
+  @media (max-width: 784px) {
+    .label {
+      padding: 4px 10px;
+      font-size: 0.6rem;
+      font-weight: bold;
+      border-radius: 8px;
+      top: 1px;
+      left: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+  }
