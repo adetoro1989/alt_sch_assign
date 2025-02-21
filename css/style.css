@@ -96,4 +96,11 @@ p {
     color: white;
     margin-bottom: 100px;
   }
+  .bottom {
+    p {
+      margin-left: 400px;
+      font-size: large;
+    }
+    margin-top: 300px;
+  }
 }
