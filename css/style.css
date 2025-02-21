@@ -64,6 +64,7 @@ p {
       margin-top: 10px;
       color: white;
       text-decoration: none;
+      gap:30px;
     }
     a:hover {
       background-color: green;
@@ -79,6 +80,7 @@ p {
       padding-right: 5px;
       padding-top: 10px;
       padding-bottom: 10px;
+      gap: 30px;
     }
     margin-left: 10px;
     gap: 30px;
