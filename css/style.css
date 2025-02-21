@@ -86,4 +86,14 @@ p {
     gap: 30px;
   }
 }
-
+@media (max-width: 600px){
+  .sch_id {
+    h3 {
+      margin-left: 250px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: xx-large;
+    }
+    color: white;
+    margin-bottom: 100px;
+  }
+}
