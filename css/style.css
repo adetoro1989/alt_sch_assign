@@ -98,7 +98,7 @@ p {
   }
   .bottom {
     p {
-      margin-left: 100px;
+      margin-left: -10px;
       font-size: large;
     }
     margin-top: 300px;
